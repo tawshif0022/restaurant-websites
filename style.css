@@ -36,11 +36,25 @@ ul{
 }
 ul li a{
     text-decoration: none;
+    color: white;
+   
    
 }
 
 .round-shape{
-    height: 50%;
-    width: 50%;
+    height: 800px;
+    width: 800px;
     background-color: #18B644;
+    border-radius: 50%;
+    position: absolute;
+    top: -450px;
+    left: 800px;
+    z-index: -1;
+}
+.food{
+    display: flex;
+    width: 20%;
+    position: absolute;
+    left: 68%;
+    top: 25%;
 }
