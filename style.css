@@ -1,0 +1,46 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    padding:20px;
+    margin-left: 10px;
+    font-weight:bolder;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #737272;
+}
+.hunt{
+    color:#18B644 ;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 17px;
+    margin-right: 20px;
+    
+    ;
+}
+ul{
+    margin-right: 150px;
+}
+ul li a{
+    text-decoration: none;
+   
+}
+
+.round-shape{
+    height: 50%;
+    width: 50%;
+    background-color: #18B644;
+}
