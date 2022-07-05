@@ -58,3 +58,64 @@ ul li a{
     left: 68%;
     top: 25%;
 }
+.overview{
+    height: 40%;
+    width: 35%;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.delicious{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.desc{
+    margin-bottom: 20px;
+}
+
+.description{
+    text-align: justify;
+}
+
+.order-now{
+    margin-left: 13%;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #18B644;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    width: 10%;
+    text-align: center;
+}
+.order-now a{
+    text-decoration: none;
+    color: white;
+}
+.order-now:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.about-me{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: 
+    rgba(92, 172, 14, 0.04);
+    margin-top: 8%;
+}
+
+.arrange{
+    height:90% ;
+    margin-left: 5%;
+    
+}
+
+.about-description{
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
