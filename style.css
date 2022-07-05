@@ -8,7 +8,6 @@
 header{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .logo{
@@ -97,7 +96,8 @@ ul li a{
     color: white;
 }
 .order-now:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .about-me{
     display: flex;
@@ -156,6 +156,10 @@ ul li a{
     text-decoration: none;
     color: white;
 }
+.contact-me:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .recipies{
     height: 500px;
     width: 100%;
@@ -232,7 +236,7 @@ footer{
     color: white;
 }
 .social-media{
-    background-color: #18B644;
+   
     height: 150px;
     width: 1000px;
     display: flex;
@@ -240,7 +244,8 @@ footer{
     margin-left: 300px;
     border-radius: 10px;
     position: absolute;
-    
+    z-index: -1;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .social{
@@ -252,5 +257,10 @@ footer{
 }
 
 .social-media-name{
-    
+    display: inline-block;
+    margin-top: 430px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #18191F;
+    font-weight: 300;
 }
